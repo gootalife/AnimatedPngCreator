@@ -126,7 +126,7 @@ namespace CMK
             chunk.AddRange(_offsetY);
             chunk.AddRange(_DefaultFrameDelay);
             chunk.AddRange(new Byte[] { 3, 232 });
-            chunk.AddRange(new Byte[] { 0, 1 });
+            chunk.AddRange(new Byte[] { 1, 1 });
 
             //Write data
             _writer.Write(chunk.ToArray());
